@@ -1,0 +1,40 @@
+
+	echo "<div class='bmd-layout-container'>";
+ echo "<header class='bmd-layout-header'> </header>";
+echo " <div class='bmd-layout-drawer'> </div>";
+echo " <main class='bmd-layout-content'> </main>";
+echo "</div>";		
+
+echo "		<button class='navbar-toggler hidden-lg-up' data-toggle='drawer' data-target='#my-drawer' type='button'>";
+  echo "<span class='sr-only'>Toggle drawer</span>";
+echo " <i class='material-icons'>menu</i>";
+echo "</button>";
+
+				echo "	<div class='bmd-layout-container bmd-drawer-f-l'>";
+				echo "<header class='bmd-layout-header'>";
+				echo "<div class='navbar navbar-light bg-faded'>";
+				echo "<button class='navbar-toggler' type='button' data-toggle='drawer'data-target='#dw-s1'>";
+				echo "<span class='sr-only'>Toggle drawer</span>";
+				echo "<i class='material-icons'>menu</i>";
+				echo "</button>";
+				echo "<ul class='nav navbar-nav'>";
+				echo "<li class='nav-item'>Title</li>";
+				echo "</ul>";
+				echo "</div>";
+				echo "</header>";
+				echo "<div id='dw-s1' class='bmd-layout-drawer bg-faded'>";
+				echo "<header>";
+				echo "<a class='navbar-brand'>Title</a>";
+				echo "</header>";
+				echo "<ul class='list-group'>";
+				echo "<a class='list-group-item'>Link 1</a>";
+				echo "<a class='list-group-item'>Link 2</a>";
+				echo "<a class='list-group-item'>Link 3</a>";
+				echo "</ul>";
+				echo "</div>";
+				echo "<main class='bmd-layout-content'>";
+				echo "<div class='container'>";
+				echo "<p>Main content</p>";
+				echo "</div>";
+				echo "</main>";
+				echo "</div>";
